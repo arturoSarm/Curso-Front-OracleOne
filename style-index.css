@@ -1,0 +1,70 @@
+
+.titulo-principal{
+    padding-left: 30px;
+}
+
+
+p{/*Este selector cambia los atributos de todas las etiquetas padre <P>*/
+    text-align: center;   
+}
+
+#banner{
+    width: 100%;
+}
+
+.principal{
+    background-color: #CCCCCC;
+    padding: 20px;
+}
+ 
+.titulo-centralizado{
+    text-align: center;
+}
+
+/*ejm etiquetas en cascada*/
+em strong{/*Esto solo cambia a las etiquetas <strong>, que estén dentro de la etiqueta <em>*/
+    color: red;
+}
+
+#mission{
+    font-size: 20px
+}
+
+
+
+.items{
+    font-style: italic;
+}
+
+ul{/*Establece solo un ancho ajustable al contenido que llene la etiqueta
+    Esto permite que se pueda agregar una imagen al lado de las <ul>
+    */
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.diferenciales{
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+.imagenDiferenciales{
+    width: 50%;
+}
+
+/*Definicion Hexadecimal
+
+0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+_ _ _ _ _ _
+Primeras dos posiciones = rojo (R)
+Siguientes dos posiciones = verde (G)
+Posiciones cinco y seis = azul (B)
+Forma las siglas = >RGB<
+En las 6 posiciones, las mas a la izquierda muestras los colores mas fuertes
+la mas a la derecha representa colores mas tenues
+#000000 = negro
+#FFFFFF = blanco
+
+*/

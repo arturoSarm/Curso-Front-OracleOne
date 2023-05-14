@@ -1,0 +1,116 @@
+<!DOCTYPE html><!--esta linea hace referencia a que en este codigo, se está usando la Version 5 de HTML-->
+
+<html lang="es"><!--Declara que las entradas de lenguaje que vamos a agregar, es en español-->
+
+<head>
+    <meta charset="UTF-8"><!--Agrega diccionarios en muchos idiomas, que detectan las tildes y caracteres especiales-->
+    <meta name="viewport" content="width=device-width"><!--Establece formato vertical para una vista responsive en telefono-->
+    <title>Barbería Alura</title><!--Define el nombre de la pagina,como se verá en el nombre de la pestañá-->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <!--rel: es para relacionar, href: toma como referencia la hora de estilos que creamos-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Carlito&family=Fira+Sans+Condensed&family=Roboto&family=Sarabun:ital,wght@1,100&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <header>
+        <div class="caja">
+            <h1><img src="imagenes/logo.png" alt=""></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="productos.html">Products</a></li>
+                    <li><a href="contacto.html">Contact</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <img class="banner" src="banner/banner.jpg">
+    <main>
+        <section class="principal">
+            <h2 class="titulo-principal">Sobre la Barbería Alura</h2>
+            <img class="utensilios" src="imagenes/utensilios.jpg" alt="Utensilios de un barbero">
+            <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay de
+                mejor
+                para
+                su cabello y barba.
+                Fundada en , la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente.</p>
+
+
+            <!--La etiqueta <em> de "emphasis", vuelve cursivo el parrafo que encierre-->
+            <p id="mission"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros
+                        clientes"</strong></em></p>
+
+            <!--el ; en este caso, sirve para separar las instrucciones CSS que se apliquen sobre una misma etiqueta-->
+            <p> Ofrecemos orifesuibakes exoerunebtadis qye est;ab cibstabtenebte observando los cambios y movimiento en
+                el
+                mundo
+                de
+                la
+                moda, para así ofrecer
+                a nuestros clientes las últimas tendencias. El atendimiento poseee un patrón de excelencia y agilidad,
+                garantizando
+                la
+                calidad y satisfacción
+                de nuestros clientes.</p>
+        </section>
+
+        <section class="mapa">
+            <h3 class="titulo-principal">Nuestra ubicación</h3>
+            <p>Nuestro establecimiento está ubicado en el corazón de la ciudad</p>
+
+            <div class="mapa-contenido">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228.5255438767397!2d-46.634880939377545!3d-23.58967107128588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5bd9bb943bf5%3A0x6f642995c970f0fe!2scaelum%20alura!5e0!3m2!1ses!2sco!4v1683944375612!5m2!1ses!2sco"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+           
+        </section>
+
+        <section class="diferenciales">
+
+            <h3 class="titulo-principal">Diferenciales</h3>
+            <!--<UnderList>representa una lista desordenada de elementos, a diferencia de la etiquera <ol>(OrderList)-->
+            <!--<li>ListItem = indica cada elementos de una lista-->
+            <div class="contenido-diferenciales">
+                <ul class="lista-diferenciales">
+                    <!--<li>Cada li hace un salto de linea por defecto-->
+                    <li class="items"> Atencion personalizada a los clientes</li>
+                    <li class="items"> Espacio diferenciado</li>
+                    <li class="items"> Localizacion</li>
+                    <li class="items"> Profesionales calificados</li>
+                    <li class="items"> Puntualidad</li>
+                    <li class="items"> Limpieza</li>
+                </ul><img src="diferenciales/diferenciales.jpg" class="imagen-diferenciales">
+            </div>
+            <div class="video">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+   
+    </main>
+
+    <footer>
+        <img src="imagenes/logo-blanco.png">
+        <p class="copyright">&copy Copyright Barbería Alura - 2023</p>
+    </footer>
+
+</body>
+
+</html>
